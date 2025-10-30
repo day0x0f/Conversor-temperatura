@@ -2,23 +2,42 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Conversor de Temperatura</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Temperatura 🌡️</title>
+  <!-- Link do CSS externo -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Conversor de Temperatura</h1>
-  <input type="number" id="valor" placeholder="Digite o valor">
-  <select id="entrada">
-    <option value="celsius">Celsius</option>
-    <option value="fahrenheit">Fahrenheit</option>
-    <option value="kelvin">Kelvin</option>
-  </select>
-  <select id="saida">
-    <option value="celsius">Celsius</option>
-    <option value="fahrenheit">Fahrenheit</option>
-    <option value="kelvin">Kelvin</option>
-  </select>
-  <button onclick="converter()">Converter</button>
-  <p id="resultado"></p>
+  <div class="container">
+    <h1>Conversor de Temperatura 🌡️</h1>
+
+    <!-- Input de valor -->
+    <input id="valor" type="number" placeholder="Digite a temperatura">
+
+    <!-- Seleção da unidade de entrada -->
+    <select id="entrada">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+
+    <span>→</span>
+
+    <!-- Seleção da unidade de saída -->
+    <select id="saida">
+      <option value="celsius">Celsius</option>
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="kelvin">Kelvin</option>
+    </select>
+
+    <!-- Botão de conversão -->
+    <button onclick="converter()">Converter</button>
+
+    <!-- Resultado da conversão -->
+    <p id="resultado"></p>
+  </div>
+
+  <!-- Script de conversão -->
   <script src="script.js"></script>
 </body>
 </html>
