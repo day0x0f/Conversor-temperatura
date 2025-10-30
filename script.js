@@ -2,6 +2,13 @@ function converter() {
   const valor = parseFloat(document.getElementById('valor').value);
   const entrada = document.getElementById('entrada').value;
   const saida = document.getElementById('saida').value;
+  const resultadoEl = document.getElementById('resultado');
+
+  if (isNaN(valor)) {
+    resultadoEl.innerText = 'Por favor, insira um valor numérico válido.';
+    return;
+  }
+
   let resultado;
 
   if (entrada === saida) {
@@ -20,6 +27,5 @@ function converter() {
     resultado = ((valor - 273.15) * 9/5) + 32;
   }
 
-  document.getElementById('resultado').innerText =
-    `Resultado: ${resultado.toFixed(2)} ${saida}`;
+  resultadoEl.innerText = `Resultado: ${resultado.toFixed(2)} ${saida}`;
 }
