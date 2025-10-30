@@ -50,3 +50,5 @@ body {
   justify-content: center;
   height: 100vh;
 }
+
+.container { padding: 30px; }
