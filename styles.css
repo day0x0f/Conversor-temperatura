@@ -16,3 +16,10 @@ h1 {
   margin-bottom: 20px;
   color: #f1f1f1;
 }
+
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin: 5px;
+}
