@@ -43,3 +43,10 @@ button:hover {
   border-radius: 16px;
   padding: 20px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
