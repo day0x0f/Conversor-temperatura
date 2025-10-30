@@ -32,6 +32,7 @@ input, select {
 button {
   background-color: #3498db;
   transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   color: white;
   padding: 10px 20px;
   border: none;
