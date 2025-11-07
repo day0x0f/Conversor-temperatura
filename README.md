@@ -9,7 +9,7 @@ Desenvolvido como parte da atividade prática de versionamento com **Git e GitHu
 - JavaScript 
 
 ## 👥 Integrantes
-- Márcio Dayvid Dias  — [dayx0x0f](https://github.com/day0x0f)
+- Márcio Dayvid Dias  — [day0x0f](https://github.com/day0x0f)
 - Fernando França Filho — [FernandoFrancaFilho](https://github.com/FernandoFrancaFilho)
 
 ## 🧱 Estrutura de Branches
