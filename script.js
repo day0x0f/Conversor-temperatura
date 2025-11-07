@@ -29,3 +29,9 @@ function converter() {
 
   resultadoEl.innerText = `Resultado: ${resultado.toFixed(2)} ${saida}`;
 }
+
+
+function mudarCor() {
+      const cores = ["#f8b400", "#00b894", "#0984e3", "#d63031", "#6c5ce7"];
+      document.body.style.backgroundColor = cores[Math.floor(Math.random() * cores.length)];
+    }
